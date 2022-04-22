@@ -76,6 +76,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A699AEF728132253009F8504 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A6F38E1B28131F02004F6576 /* Main.storyboard */,
+				A6F38E2028131F03004F6576 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A699AEF828132278009F8504 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A6F38E1928131F02004F6576 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A699AEF928132295009F8504 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A6F38E1528131F02004F6576 /* AppDelegate.swift */,
+				A6F38E1728131F02004F6576 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A699AEFA28132365009F8504 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A6F38E1E28131F03004F6576 /* Assets.xcassets */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		A6F38E0928131F01004F6576 = {
 			isa = PBXGroup;
 			children = (
@@ -99,12 +133,10 @@
 		A6F38E1428131F02004F6576 /* DeviceMuseum */ = {
 			isa = PBXGroup;
 			children = (
-				A6F38E1528131F02004F6576 /* AppDelegate.swift */,
-				A6F38E1728131F02004F6576 /* SceneDelegate.swift */,
-				A6F38E1928131F02004F6576 /* ViewController.swift */,
-				A6F38E1B28131F02004F6576 /* Main.storyboard */,
-				A6F38E1E28131F03004F6576 /* Assets.xcassets */,
-				A6F38E2028131F03004F6576 /* LaunchScreen.storyboard */,
+				A699AEF828132278009F8504 /* Controllers */,
+				A699AEF728132253009F8504 /* Views */,
+				A699AEFA28132365009F8504 /* Source */,
+				A699AEF928132295009F8504 /* App */,
 				A6F38E2328131F03004F6576 /* Info.plist */,
 			);
 			path = DeviceMuseum;
