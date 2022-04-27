@@ -98,6 +98,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A68D14AA28195F4800F1446A /* AR models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "AR models";
+			sourceTree = "<group>";
+		};
+		A68D14AB2819608400F1446A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		A699AEF728132253009F8504 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -186,6 +200,8 @@
 		A6F38E1428131F02004F6576 /* DeviceMuseum */ = {
 			isa = PBXGroup;
 			children = (
+				A68D14AA28195F4800F1446A /* AR models */,
+				A68D14AB2819608400F1446A /* Data */,
 				A699AEF828132278009F8504 /* Controllers */,
 				A699AEFF28133681009F8504 /* SwiftUIControllers */,
 				A699AEF728132253009F8504 /* Views */,

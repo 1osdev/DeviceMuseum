@@ -78,8 +78,8 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
-                                            <action selector="signInTapped" destination="n0M-D3-1fZ" eventType="touchUpInside" id="fJD-v8-Ewe"/>
-                                            <segue destination="8dZ-tB-puo" kind="show" id="iOe-eo-5E3"/>
+                                            <action selector="goToContentView" destination="n0M-D3-1fZ" eventType="touchUpInside" id="Paz-2Y-m7T"/>
+                                            <segue destination="8dZ-tB-puo" kind="show" destinationCreationSelector="segueToContentView:" id="eVB-HX-Eo7"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -106,7 +106,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gmI-S8-KBT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="720" y="52"/>
+            <point key="canvasLocation" x="718.84057971014499" y="51.5625"/>
         </scene>
         <!--SignUpStoryboard-->
         <scene sceneID="wmy-op-WWG">
