@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ysS-8z-jcw">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Profile-->
+        <scene sceneID="NFm-5M-tTo">
+            <objects>
+                <viewController id="w8t-LS-3xl" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OBn-Bf-SlE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="6mh-kG-DtX"/>
+                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Profile" image="brain.head.profile" catalog="system" id="LGv-YW-17o"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sWP-Oz-5ru" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1406" y="411"/>
+        </scene>
+        <!--Main-->
+        <scene sceneID="HjN-JT-xow">
+            <objects>
+                <viewController id="TOl-tf-aJk" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="amU-xj-eTn">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Xw6-fD-IVW"/>
+                        <color key="backgroundColor" systemColor="systemGray4Color"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Main" image="rectangle.and.pencil.and.ellipsis" catalog="system" id="XIe-vK-Twu"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WLf-u1-DWq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1407" y="-251"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="m4x-Oq-Rjf">
+            <objects>
+                <tabBarController id="ysS-8z-jcw" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="mt4-86-NZW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="TOl-tf-aJk" kind="relationship" relationship="viewControllers" id="RVg-e4-o65"/>
+                        <segue destination="w8t-LS-3xl" kind="relationship" relationship="viewControllers" id="8JQ-Z1-ddt"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xTj-A8-IeF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="517" y="51"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="brain.head.profile" catalog="system" width="114" height="128"/>
+        <image name="rectangle.and.pencil.and.ellipsis" catalog="system" width="128" height="81"/>
+        <systemColor name="systemGray4Color">
+            <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

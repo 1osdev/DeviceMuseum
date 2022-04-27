@@ -7,10 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A6962FED28173D1C0059F29A /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6962FEC28173D1C0059F29A /* HostingController.swift */; };
+		A699AEFE28133673009F8504 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A699AEFD28133673009F8504 /* ContentView.swift */; };
+		A699AF02281337D5009F8504 /* NavigationStack in Frameworks */ = {isa = PBXBuildFile; productRef = A699AF01281337D5009F8504 /* NavigationStack */; };
+		A699AF042813C152009F8504 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A699AF032813C152009F8504 /* UIViewControllerExt.swift */; };
+		A699AF072813C1AD009F8504 /* VerificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A699AF062813C1AD009F8504 /* VerificationService.swift */; };
+		A699AF0A2813C247009F8504 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A699AF092813C247009F8504 /* Constants.swift */; };
+		A699AF0C2813C2C8009F8504 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A699AF0B2813C2C8009F8504 /* CreateAccountVC.swift */; };
+		A699AF0E2813C32D009F8504 /* CodeVerifVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A699AF0D2813C32D009F8504 /* CodeVerifVC.swift */; };
+		A699AF102813C36A009F8504 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A699AF0F2813C36A009F8504 /* WelcomeVC.swift */; };
+		A699AF122813C492009F8504 /* SignUpStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A699AF112813C492009F8504 /* SignUpStoryboard.storyboard */; };
+		A699AF142813C645009F8504 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A699AF132813C645009F8504 /* MainStoryboard.storyboard */; };
 		A6F38E1628131F02004F6576 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F38E1528131F02004F6576 /* AppDelegate.swift */; };
 		A6F38E1828131F02004F6576 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F38E1728131F02004F6576 /* SceneDelegate.swift */; };
-		A6F38E1A28131F02004F6576 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F38E1928131F02004F6576 /* ViewController.swift */; };
-		A6F38E1D28131F02004F6576 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6F38E1B28131F02004F6576 /* Main.storyboard */; };
+		A6F38E1A28131F02004F6576 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F38E1928131F02004F6576 /* SignInVC.swift */; };
+		A6F38E1D28131F02004F6576 /* SignInStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6F38E1B28131F02004F6576 /* SignInStoryboard.storyboard */; };
 		A6F38E1F28131F03004F6576 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6F38E1E28131F03004F6576 /* Assets.xcassets */; };
 		A6F38E2228131F03004F6576 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6F38E2028131F03004F6576 /* LaunchScreen.storyboard */; };
 		A6F38E2D28131F04004F6576 /* DeviceMuseumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F38E2C28131F04004F6576 /* DeviceMuseumTests.swift */; };
@@ -36,11 +47,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A6962FEC28173D1C0059F29A /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		A699AEFD28133673009F8504 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A699AF032813C152009F8504 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
+		A699AF062813C1AD009F8504 /* VerificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationService.swift; sourceTree = "<group>"; };
+		A699AF092813C247009F8504 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A699AF0B2813C2C8009F8504 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
+		A699AF0D2813C32D009F8504 /* CodeVerifVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeVerifVC.swift; sourceTree = "<group>"; };
+		A699AF0F2813C36A009F8504 /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
+		A699AF112813C492009F8504 /* SignUpStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUpStoryboard.storyboard; sourceTree = "<group>"; };
+		A699AF132813C645009F8504 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 		A6F38E1228131F02004F6576 /* DeviceMuseum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeviceMuseum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6F38E1528131F02004F6576 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6F38E1728131F02004F6576 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A6F38E1928131F02004F6576 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A6F38E1C28131F02004F6576 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6F38E1928131F02004F6576 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		A6F38E1C28131F02004F6576 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SignInStoryboard.storyboard; sourceTree = "<group>"; };
 		A6F38E1E28131F03004F6576 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6F38E2128131F03004F6576 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6F38E2328131F03004F6576 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A699AF02281337D5009F8504 /* NavigationStack in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,7 +101,9 @@
 		A699AEF728132253009F8504 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				A6F38E1B28131F02004F6576 /* Main.storyboard */,
+				A6F38E1B28131F02004F6576 /* SignInStoryboard.storyboard */,
+				A699AF112813C492009F8504 /* SignUpStoryboard.storyboard */,
+				A699AF132813C645009F8504 /* MainStoryboard.storyboard */,
 				A6F38E2028131F03004F6576 /* LaunchScreen.storyboard */,
 			);
 			path = Views;
@@ -88,7 +112,10 @@
 		A699AEF828132278009F8504 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				A6F38E1928131F02004F6576 /* ViewController.swift */,
+				A6F38E1928131F02004F6576 /* SignInVC.swift */,
+				A699AF0B2813C2C8009F8504 /* CreateAccountVC.swift */,
+				A699AF0D2813C32D009F8504 /* CodeVerifVC.swift */,
+				A699AF0F2813C36A009F8504 /* WelcomeVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -102,12 +129,38 @@
 			path = App;
 			sourceTree = "<group>";
 		};
-		A699AEFA28132365009F8504 /* Source */ = {
+		A699AEFA28132365009F8504 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				A6F38E1E28131F03004F6576 /* Assets.xcassets */,
+				A699AF092813C247009F8504 /* Constants.swift */,
 			);
-			path = Source;
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		A699AEFF28133681009F8504 /* SwiftUIControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A699AEFD28133673009F8504 /* ContentView.swift */,
+				A6962FEC28173D1C0059F29A /* HostingController.swift */,
+			);
+			path = SwiftUIControllers;
+			sourceTree = "<group>";
+		};
+		A699AF052813C159009F8504 /* Exstensions */ = {
+			isa = PBXGroup;
+			children = (
+				A699AF032813C152009F8504 /* UIViewControllerExt.swift */,
+			);
+			path = Exstensions;
+			sourceTree = "<group>";
+		};
+		A699AF082813C1B4009F8504 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A699AF062813C1AD009F8504 /* VerificationService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		A6F38E0928131F01004F6576 = {
@@ -134,10 +187,13 @@
 			isa = PBXGroup;
 			children = (
 				A699AEF828132278009F8504 /* Controllers */,
+				A699AEFF28133681009F8504 /* SwiftUIControllers */,
 				A699AEF728132253009F8504 /* Views */,
-				A699AEFA28132365009F8504 /* Source */,
+				A699AEFA28132365009F8504 /* Sources */,
 				A699AEF928132295009F8504 /* App */,
 				A6F38E2328131F03004F6576 /* Info.plist */,
+				A699AF052813C159009F8504 /* Exstensions */,
+				A699AF082813C1B4009F8504 /* Services */,
 			);
 			path = DeviceMuseum;
 			sourceTree = "<group>";
@@ -175,6 +231,9 @@
 			dependencies = (
 			);
 			name = DeviceMuseum;
+			packageProductDependencies = (
+				A699AF01281337D5009F8504 /* NavigationStack */,
+			);
 			productName = DeviceMuseum;
 			productReference = A6F38E1228131F02004F6576 /* DeviceMuseum.app */;
 			productType = "com.apple.product-type.application";
@@ -247,6 +306,9 @@
 				Base,
 			);
 			mainGroup = A6F38E0928131F01004F6576;
+			packageReferences = (
+				A699AF00281337D5009F8504 /* XCRemoteSwiftPackageReference "swiftui-navigation-stack" */,
+			);
 			productRefGroup = A6F38E1328131F02004F6576 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -264,8 +326,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6F38E2228131F03004F6576 /* LaunchScreen.storyboard in Resources */,
+				A699AF142813C645009F8504 /* MainStoryboard.storyboard in Resources */,
+				A699AF122813C492009F8504 /* SignUpStoryboard.storyboard in Resources */,
 				A6F38E1F28131F03004F6576 /* Assets.xcassets in Resources */,
-				A6F38E1D28131F02004F6576 /* Main.storyboard in Resources */,
+				A6F38E1D28131F02004F6576 /* SignInStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,8 +354,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6F38E1A28131F02004F6576 /* ViewController.swift in Sources */,
+				A699AF042813C152009F8504 /* UIViewControllerExt.swift in Sources */,
+				A699AF102813C36A009F8504 /* WelcomeVC.swift in Sources */,
+				A6F38E1A28131F02004F6576 /* SignInVC.swift in Sources */,
+				A699AF0C2813C2C8009F8504 /* CreateAccountVC.swift in Sources */,
+				A699AF072813C1AD009F8504 /* VerificationService.swift in Sources */,
 				A6F38E1628131F02004F6576 /* AppDelegate.swift in Sources */,
+				A699AF0E2813C32D009F8504 /* CodeVerifVC.swift in Sources */,
+				A699AF0A2813C247009F8504 /* Constants.swift in Sources */,
+				A699AEFE28133673009F8504 /* ContentView.swift in Sources */,
+				A6962FED28173D1C0059F29A /* HostingController.swift in Sources */,
 				A6F38E1828131F02004F6576 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -329,12 +401,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A6F38E1B28131F02004F6576 /* Main.storyboard */ = {
+		A6F38E1B28131F02004F6576 /* SignInStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				A6F38E1C28131F02004F6576 /* Base */,
 			);
-			name = Main.storyboard;
+			name = SignInStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 		A6F38E2028131F03004F6576 /* LaunchScreen.storyboard */ = {
@@ -474,7 +546,8 @@
 				INFOPLIST_FILE = DeviceMuseum/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = SignInStoryboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -486,7 +559,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -502,7 +575,8 @@
 				INFOPLIST_FILE = DeviceMuseum/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = SignInStoryboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -514,7 +588,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -634,6 +708,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A699AF00281337D5009F8504 /* XCRemoteSwiftPackageReference "swiftui-navigation-stack" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/matteopuc/swiftui-navigation-stack.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A699AF01281337D5009F8504 /* NavigationStack */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A699AF00281337D5009F8504 /* XCRemoteSwiftPackageReference "swiftui-navigation-stack" */;
+			productName = NavigationStack;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A6F38E0A28131F01004F6576 /* Project object */;
 }
