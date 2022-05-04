@@ -1,0 +1,332 @@
+[
+  {
+    "id" : 1001,
+    "name" : "iPhone 5s",
+    "imageName" : "(iPhone) Apple iPhone 5s",
+    "description" : "The next generation of iPhone is the iPhone 5S. The differences from its predecessor, the iPhone 5, are as follows. The case remained the same, with the exception of the Home button, which began to perform, in addition to the usual functions, also the role of a biometric sensor. There are three color options - gray, silver and gold. The A6 processor has been updated, now it is a dual-core A7 with a 64-bit architecture and an increased clock speed, as well as an additional M7 motion processor, which is responsible for the orientation sensors. The main and front cameras have been improved, the flash is now double with True Tone technology.",
+    "category" : "iPhone",
+    "urlString" : "https://www.youtube.com/watch?v=4G-X2ZJI4ys",
+    "company" : "Apple",
+    "starImage" : false,
+    "cameraPositionXYZ" : [
+      0,
+      0,
+      1.3
+    ]
+  },
+  {
+    "id" : 1002,
+    "name" : "iPhone 7",
+    "imageName" : "(iPhone) Apple iPhone 7",
+    "description" : "iPhone model 2016. External changes are minor, the case received a new color - Jet Black and the usual color Space Gray has changed to Black. For the first time in its history, the case is protected from dust and moisture according to the IP67 standard, and instead of one loudspeaker, there are now two stereo speakers. Lots of changes inside. This is the new high-performance A10 Fusion processor and the minimum bar of built-in flash memory of 32GB, instead of the usual 16GB, a new 7MP front camera and a redesigned Home button. The main camera has also been updated, and now the iPhone 7 model has received optical image stabilization.",
+    "category" : "iPhone",
+    "urlString" : "https://www.youtube.com/watch?v=NS0txu_Kzl8",
+    "company" : "Apple",
+    "starImage" : false,
+    "cameraPositionXYZ" : [
+      20,
+      20,
+      40
+    ]
+  },
+  {
+    "id" : 1003,
+    "name" : "iPhone XS Max",
+    "imageName" : "(iPhone) Apple iPhone XS Max",
+    "description" : "iPhone XS Max is a 6.5-inch Apple smartphone, presented at a special event on September 12. iPhone XS Max features a huge 6.5-inch OLED display, Apple's revolutionary A12 Bionic processor, 4GB of RAM, an advanced dual vertical camera, and more. The iPhone XS Max sales start date is September 28, 2018. In this article, we talked as much as possible about the flagship Apple iPhone XS Max 2018.",
+    "category" : "iPhone",
+    "urlString" : "https://www.youtube.com/watch?v=wFTmQ27S7OQ",
+    "company" : "Apple",
+    "starImage" : false,
+    "cameraPositionXYZ" : [
+      0,
+      2,
+      20
+    ]
+  },
+  {
+    "id" : 1004,
+    "name" : "iPhone 11 Pro",
+    "imageName" : "(iPhone) Apple iPhone 11 Pro",
+    "description" : "Apple also announced its new top-of-the-line iPhone models, the iPhone 11 Pro and iPhone 11 Pro Max, which feature the brightest Super Retina XDR display ever on an iPhone, Apple's high-performance A13 Bionic processor, and a long-lasting battery that delivers smartphones work for the whole day. But the main trick of these presented smartphones is the new triple main camera (ultra-wide-angle, wide-angle and telephoto), which allows shooting, according to the manufacturer, at a professional level, including with a significant improvement in quality in low light conditions.",
+    "category" : "iPhone",
+    "urlString" : "https://www.youtube.com/watch?v=-rAeqN-Q7x4",
+    "company" : "Apple",
+    "starImage" : true,
+    "cameraPositionXYZ" : [
+      0,
+      0,
+      1.1
+    ]
+  },
+  {
+    "id" : 1005,
+    "name" : "iPhone 12 Pro",
+    "imageName" : "(iPhone) Apple iPhone 12 Pro",
+    "description" : "Apple iPhone 12 Pro is the most powerful smartphone of 2020. Hidden under an incredible screen with an all-new super-hard coating is the most advanced technology that makes this smartphone more powerful than computers and allows it to shoot better than professional cameras. Apple iPhone 12 Pro is a new era, new super features in your pocket. Apple iPhone 12 Pro is framed in medical grade stainless steel. It has the thinnest bezels around the screen and an incredible 6.1 inches of a stunning OLED display with Super Retina XDR technology. This is the brightest screen among all iPhone models. It is protected by Ceramic Shield technology. It's a glass with nanoparticles of transparent ceramic that make it incredibly durable. The chance of breaking the screen is now 4 times less. The case received protection against water of the IP68 standard, which means that it is not scary to get caught in the rain or take pictures in the pool with it.",
+    "category" : "iPhone",
+    "urlString" : "https://www.youtube.com/watch?v=KR0g-1hnQPA",
+    "company" : "Apple",
+    "starImage" : true,
+    "cameraPositionXYZ" : [
+      0,
+      7,
+      35
+    ]
+  },
+  {
+    "id" : 1006,
+    "name" : "iPhone 13 Pro",
+    "imageName" : "(iPhone) Apple iPhone 13 Pro",
+    "description" : "For several years, Apple has been creating powerful smartphones that are hard to compete with devices from other brands. In 2021, the developer further improved performance by equipping all 13 series models with the new A15 Bionic chip. It makes smartphones very fast in terms of information processing. What does this mean for users? The fact that they can play the heaviest games, perform actions in several applications at the same time, work with graphics, take photos and shoot videos without a single brake. The performance of the 13 Pro is like a mini-computer, so you don't have to worry that it won't get the job done.",
+    "category" : "iPhone",
+    "urlString" : "https://www.youtube.com/watch?v=EvGOlAkLSLw",
+    "company" : "Apple",
+    "starImage" : false,
+    "cameraPositionXYZ" : [
+      0,
+      7,
+      33
+    ]
+  },
+  {
+    "id" : 1007,
+    "name" : "iPhone 13 Pro Max Blue",
+    "imageName" : "(iPhone) Apple iPhone 13 Pro Max Blue",
+    "description" : "For several years, Apple has been creating powerful smartphones that are hard to compete with devices from other brands. In 2021, the developer further improved performance by equipping all 13 series models with the new A15 Bionic chip. It makes smartphones very fast in terms of information processing. What does this mean for users? The fact that they can play the heaviest games, perform actions in several applications at the same time, work with graphics, take photos and shoot videos without a single brake. The performance of the 13 Pro is like a mini-computer, so you don't have to worry that it won't get the job done.",
+    "category" : "iPhone",
+    "urlString" : "https://www.youtube.com/watch?v=EvGOlAkLSLw",
+    "company" : "Apple",
+    "starImage" : false,
+    "cameraPositionXYZ" : [
+      -1,
+      2,
+      20
+    ]
+  },
+  {
+    "id" : 1008,
+    "name" : "iPhone 13 Pro Max Green",
+    "imageName" : "(iPhone) Apple iPhone 13 Pro Max Green",
+    "description" : "For several years, Apple has been creating powerful smartphones that are hard to compete with devices from other brands. In 2021, the developer further improved performance by equipping all 13 series models with the new A15 Bionic chip. It makes smartphones very fast in terms of information processing. What does this mean for users? The fact that they can play the heaviest games, perform actions in several applications at the same time, work with graphics, take photos and shoot videos without a single brake. The performance of the 13 Pro is like a mini-computer, so you don't have to worry that it won't get the job done.",
+    "category" : "iPhone",
+    "urlString" : "https://www.youtube.com/watch?v=EvGOlAkLSLw",
+    "company" : "Apple",
+    "starImage" : false,
+    "cameraPositionXYZ" : [
+      0,
+      0.2,
+      4
+    ]
+  },
+  {
+    "id" : 1009,
+    "name" : "iPad 2010",
+    "imageName" : "(iPad) Apple iPad 2010",
+    "description" : "The 1st-generation iPad is a tablet computer that was announced in a special media event by Apple CEO Steve Jobs. It was released in the United States as the first model of the iPad line on April 3, 2010. It was discontinued on March 2, 2011 with the introduction of the iPad 2. The first iPad came with iPhone OS 3.2 pre-installed and can only be updated to iOS 5.1.1. Though it featured the more advanced Apple A4 processor like the iPhone 4, the original iPad could not run iOS 6 like the older iPhone 3GS because its higher screen resolution of 1024 x 768 (vs. 480 x 320) left insufficient space within its 256 MB of RAM, which was also used for video memory (the iPhone 4 contained 512 MB of RAM to help support its higher resolution Retina display).",
+    "category" : "iPad",
+    "urlString" : "https://www.youtube.com/watch?v=6Fk1V5NqoD4",
+    "company" : "Apple",
+    "starImage" : false,
+    "cameraPositionXYZ" : [
+      0,
+      -0.1,
+      1.2
+    ]
+  },
+  {
+    "id" : 1010,
+    "name" : "iPad Pro 2020",
+    "imageName" : "(iPad) Apple iPad Pro 2020",
+    "description" : "The iPad Pro 2020 is still one of the most powerful tablets on the market, with specs and software that enable it to do plenty of laptop-level work. But you’ll have to pay close to laptop-level prices for the privilege of owning one, reducing its appeal to the average user who may be served just fine by a cheaper iPad. Despite being eclipsed by the M1 silicon-powered iPad Pro 2021, the iPad Pro 2020, with its A12Z Bionic chipset, is still an eminently capable tablet. It has less RAM than the latest model (6GB, compared to 8GB or 16GB) and a lower storage ceiling (1TB, compared to 2TB), and its IPS LCD screen is less advanced than the mini LED-packing Super Retina XDR display on the 12.9-inch iPad Pro 2021, but you may be able to find last year’s top tablet at lower prices now.",
+    "category" : "iPad",
+    "urlString" : "https://www.youtube.com/watch?v=JdBYVNuky1M",
+    "company" : "Apple",
+    "starImage" : false,
+    "cameraPositionXYZ" : [
+      0,
+      -0.1,
+      1.2
+    ]
+  },
+  {
+    "id" : 1011,
+    "name" : "iPad Mini 6 2021",
+    "imageName" : "(iPad) Apple iPad Mini 6 2021",
+    "description" : "The iPad mini 6 takes on Apple's new design language with flat sides, Touch ID in the Top Button, and a USB-C port. It is now compatible with the Apple Pencil 2, which can be magnetically attached to the side for charging and storage. This is Apple's smallest yet most powerful consumer-grade tablet in its lineup. The sixth-generation iPad mini borrows some of its design upgrades from the iPad Air 4. While it doesn't introduce any new technology on its own, it presents it in the smallest package available.",
+    "category" : "iPad",
+    "urlString" : "https://www.youtube.com/watch?v=gdeqbg8QFJM",
+    "company" : "Apple",
+    "starImage" : false,
+    "cameraPositionXYZ" : [
+      0,
+      -0.1,
+      1.2
+    ]
+  },
+  {
+    "id" : 1012,
+    "name" : "iPad Pro 12.9 2020",
+    "imageName" : "(iPad) Apple iPad Pro 12.9 2020",
+    "description" : "Apple iPad Pro 12.9 (2020) is the product launched by Apple quietly which is 12.9 inches. The device is launched in the month of March 2020. The device is powered by the Apple A12Z Bionic Octa-core processor and runs on the iPadOS 14 operating system. The device is pack with various internal storage options such as 128GB, 256GB, 512GB, and 1TB. The screen of the phone is using the technology of IPS LCD capacitive touchscreen and protected by Scratch-resistant glass and oleophobic coating. Additional features include Wide color gamut, True-tone, 120Hz, and 600 nits typ. brightness (advertised). The phone is fueled with a non-removable Li-Po 9720 mAh battery (36.71 Wh) + Power Bank/Reverse charging + Fast charging 18W. The Apple iPad Pro 12.9 (2020) comes in a dimension of 280.6 x 214.9 x 5.9 mm and weighs 641 g (Wi-Fi), 643 g (LTE). The body of the tablet is made out of Glass front, aluminum back, and aluminum frame. It supports Nano-SIM and eSIM along with Stylus support (Bluetooth integration; magnetic).",
+    "category" : "iPad",
+    "urlString" : "https://www.youtube.com/watch?v=aOq49euWnIo",
+    "company" : "Apple",
+    "starImage" : false,
+    "cameraPositionXYZ" : [
+      0,
+      -0.1,
+      1.2
+    ]
+  },
+  {
+    "id" : 1013,
+    "name" : "Watch series 2",
+    "imageName" : "(Watch) Apple Watch series 2",
+    "description" : "The Apple Watch Series 2 is the company's second-generation smartwatch. And it's been a big hit. The Apple Watch Series 2 has shifted in numbers since its launch in 2016, and leads the field as one of the best smartwatches money can buy. With the Series 2, Apple shifted focus to fitness, by adding GPS to track runs and cycling session sans iPhone. It's fully waterproof and offers swim tracking in the pool and in open water. Apple even introduced the Breathe app to help you relax. The intentions are clear: Apple is making a big play for sports watch owners.",
+    "category" : "Watch",
+    "urlString" : "https://www.youtube.com/watch?v=U2bxEPShX3o",
+    "company" : "Apple",
+    "starImage" : false,
+    "cameraPositionXYZ" : [
+      0,
+      -0.1,
+      1.2
+    ]
+  },
+  {
+    "id" : 1014,
+    "name" : "Watch series 5",
+    "imageName" : "(Watch) Apple Watch series 5",
+    "description" : "The Series 5 was announced during Apple’s fall event on September 10, 2019. Customers were able to purchase the device later that day, and it was released on September 20. The headline feature for this model is the first-ever, always-on display. The new display will always show the time and complications. The new Apple Watch is also the first to include a built-in compass. Apple is also bringing international emergency services to every cellular model. The Series 5 also brings back ceramic white, and new natural brush and space black titanium models.",
+    "category" : "Watch",
+    "urlString" : "https://www.youtube.com/watch?v=xZgYNRKP0NU",
+    "company" : "Apple",
+    "starImage" : false,
+    "cameraPositionXYZ" : [
+      0,
+      -0.1,
+      1.2
+    ]
+  },
+  {
+    "id" : 1015,
+    "name" : "Watch series 6",
+    "imageName" : "(Watch) Apple Watch series 6",
+    "description" : "Apple Watch Series 6 is officially released on September 18, 2020. The smartwatch comes with a 1.78 inches Retina LTPO OLED capacitive touchscreen and 448 x 368 pixels resolution. The screen of the device is protected by Sapphire crystal glass. Additionally, it features a 3D Touch display, 1000 nits max brightness (advertised), and an Always-on display. Apple Watch Series 6 sensors include Accelerometer, gyro, heart rate (2nd gen), barometer, always-on altimeter, compass, SpO2, and VO2max. In addition, there are Natural language commands and dictation (talking mode) integrated. The smartwatch is fueled by a Non-removable Li-Ion battery that allows 18 hours (mixed usage) + Wireless charging. The smartwatch is powered by the Apple S6 processor. It runs on watchOS 7.0 operating system. The dimension of the smartwatch is 44 x 38 x 10.4 mm and it weighs 41.3 grams. The smartwatch comes in two different colors: Titanium and Space Black. It is pack with 1 GB RAM and 32 GB internal storage. It is powered by Dual-core while the GPU is PowerVR. The smartwatch is 50m water resistant with ECG certified. It is built with a Glass front (Sapphire crystal), ceramic/sapphire crystal back, and titanium frame.",
+    "category" : "Watch",
+    "urlString" : "https://www.youtube.com/watch?v=YKQFaPRObp8",
+    "company" : "Apple",
+    "starImage" : true,
+    "cameraPositionXYZ" : [
+      0,
+      -0.1,
+      1.2
+    ]
+  },
+  {
+    "id" : 1016,
+    "name" : "Apple I",
+    "imageName" : "(Mac & Other) Apple I",
+    "description" : "The Apple-1 was the first Apple product to be sold. It marked the start of the personal computer industry. It was the first personal computer that came with a warranty. It was guaranteed to work, Cohen says. Prior to that, there were other computers. They were kits. They mostly didn't work when you got them. They were originally sold for $666.66. While that sounds pretty ominous, 666, it's because Steve Wozniak likes repeating numbers, Cohen tells Morning Edition. Even his own phone number at the time had a repeating number. He said this specific machine not only represents the start of Apple, but the ingenuity of Wozniak and Jobs and their vision where a computer isn't something to be afraid of, a computer is something that can be part of your life and can help improve your life. It took a long time, I think, for people to catch on to that idea, he says. But it is something that, you know, it helps people kind of feel closer to that progress.",
+    "category" : "Mac & Other",
+    "urlString" : "https://www.youtube.com/watch?v=jRKmpoDXgGk",
+    "company" : "Apple",
+    "starImage" : false,
+    "cameraPositionXYZ" : [
+      0,
+      -0.1,
+      1.2
+    ]
+  },
+  {
+    "id" : 1017,
+    "name" : "Apple II",
+    "imageName" : "(Mac & Other) Apple II",
+    "description" : "In 1976, computer pioneers Steve Wozniak and Steve Jobs began selling their Apple I computer in kit form to computer stores. By August of that year, Wozniak started designing an improved version, the Apple II. Wozniak and Jobs demonstrated a prototype in December, and then introduced it to the public in April 1977. The Apple II started the boom in personal computer sales in the late 1970s, and pushed Apple into the lead among personal computer makers. The Apple II used a MOS 6502 chip for its central processing unit. It came with 4 KB RAM, but could be extended up to 48 KB RAM. It included a BASIC interpreter and could support graphics and a color monitor. External storage was originally on cassette tape, but later Apple introduced an external floppy disk drive. Among the Apple II's most important features were its 8 expansion slots on the motherboard. These allowed hobbyists to add additional cards made by Apple and many other vendors who quickly sprung up. The boards included floppy disk controllers, SCSI cards, video cards, and CP/M or PASCAL emulator cards. In 1979 Software Arts introduced the first computer spreadsheet, Visicalc for the Apple II. This killer application was extremely popular and fostered extensive sales of the Apple II. The Apple II went through several improvements and upgrades. By 1984, when the Macintosh appeared, over 2 million Apple II computers had been sold.",
+    "category" : "Mac & Other",
+    "urlString" : "https://www.youtube.com/watch?v=CxJwy8NsXFs",
+    "company" : "Apple",
+    "starImage" : false,
+    "cameraPositionXYZ" : [
+      0,
+      -0.1,
+      1.2
+    ]
+  },
+  {
+    "id" : 1018,
+    "name" : "Mac Studio",
+    "imageName" : "(Mac & Other) Apple Mac Studio",
+    "description" : "Creative professionals can run multiple apps, sort and edit thousands of photos, play back 9 streams of 8K ProRes video, record and mix pro-quality music, and more using the Apple Mac Studio. This entirely new Mac desktop transforms any space into a studio and packs supercharged performance, extensive connectivity, and new capabilities in an extremely compact form factor. All of this boosts the Mac Studio to an entirely different level, as it features an M1 Max 10-Core processor, 32GB of RAM, and a 24-Core GPU. Get fast access to your files with an SSD capacity of 512GB and add external peripherals using Thunderbolt 4, USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A, and HDMI. 10 Gigabit Ethernet is built in for wired networking, or use Wi-Fi 6 (802.11ax) for wireless access. Bluetooth 5.0 technology will allow you to connect additional compatible peripherals, including keyboards, mice, and headsets. Sound is output using a 3.5mm headphone jack.",
+    "category" : "Mac & Other",
+    "urlString" : "https://www.youtube.com/watch?v=v7r8krfh_CM",
+    "company" : "Apple",
+    "starImage" : false,
+    "cameraPositionXYZ" : [
+      0,
+      -0.1,
+      1.2
+    ]
+  },
+  {
+    "id" : 1019,
+    "name" : "MacBook Pro 16 inch 2021",
+    "imageName" : "(Mac & Other) Apple MacBook Pro 16 inch 2021",
+    "description" : "Built for all types of creatives, including developers, photographers, filmmakers, 3D artists, music producers, and more, the Apple 16.2 MacBook Pro with M1 Pro Chip is the ultimate pro mobile workstation for the ultimate user. The system features the Apple M1 Pro 10-Core Chip, which provides the power and performance needed to handle your professional workflows. The 16.2 Liquid Retina XDR display features a 3456 x 2234 resolution, 1,000 nits of sustained brightness, 1,600 nits of peak brightness, P3 color gamut support, and more. With up to 512GB of SSD storage, you'll be able to load massive files and launch apps quickly, enabling you to work with photo and video libraries from almost anywhere.",
+    "category" : "Mac & Other",
+    "urlString" : "https://www.youtube.com/watch?v=exM1uajp--A",
+    "company" : "Apple",
+    "starImage" : true,
+    "cameraPositionXYZ" : [
+      0,
+      -0.1,
+      1.2
+    ]
+  },
+  {
+    "id" : 1020,
+    "name" : "Pencil",
+    "imageName" : "(Mac & Other) Apple Pencil",
+    "description" : "Unleash your creativity with the 1st gen Apple Pencil. This stylus connects to your iPad Pro or 6th Gen iPad via Bluetooth, giving you the ability to draw, paint, write, and draft with single-pixel accuracy. When in use, the Pencil and iPad Pro work together to determine the Pencil's position on the screen, the force at which it's pressed into the display, and the angle at which it is held. This lets you alter the thickness and shading of the mark you're making in a fluid, natural manner. The Pencil can be used in a number of apps, including the Mail and Notes apps and a variety of third-party apps. It's designed for low latency and high precision, with the iPad Pro scanning its signal twice as often as when you use your finger. The iPad Pro can differentiate between fingers and Pencil, and both can be used simultaneously. The system also detects when you rest your hand on the display and ignores those inputs. The battery lasts for up to 12 hours and is charged by removing the cap and inserting the Lightning connector into the Lightning port on your iPad Pro. A Pencil with a depleted battery can gain up to 30 minutes of usage time with a 15 second charge.",
+    "category" : "Mac & Other",
+    "urlString" : "https://www.youtube.com/watch?v=CAZbFzrDv7w",
+    "company" : "Apple",
+    "starImage" : false,
+    "cameraPositionXYZ" : [
+      0,
+      -0.1,
+      1.2
+    ]
+  },
+  {
+    "id" : 1021,
+    "name" : "AirTag",
+    "imageName" : "(Mac & Other) Apple AirTag",
+    "description" : "Never worry about losing devices and other belongings again with the Apple AirTag. This sleek tracking disc can be slipped into a wallet or tablet case, or you can use an optional accessory to key it with your keys or attach it to a purse, bag, or backpack. Wherever the AirTag goes, you can use Apple's Find My app to find it. When it's nearby, use the Find My app to locate it, have your AirTag play a sound through its built-in speaker, or you can simply say Hey Siri, find my key. Notifications can also be viewed on an Apple Watch, and if you own an iPhone 11 or 12, you can take advantage of Precision Finding. If your item is truly lost, you can even employ the wider Find My network of Apple devices to locate it.",
+    "category" : "Mac & Other",
+    "urlString" : "https://www.youtube.com/watch?v=lXxWh2tkKgk",
+    "company" : "Apple",
+    "starImage" : false,
+    "cameraPositionXYZ" : [
+      0,
+      -0.1,
+      1.2
+    ]
+  },
+  {
+    "id" : 1022,
+    "name" : "AR Glasses Concept Art",
+    "imageName" : "(Mac & Other) Apple AR Glasses Concept Art",
+    "description" : "Many have tried, and many have failed to make smart glasses a 'thing' – including tech giants Amazon and Google (Amazon Echo Glasses, anyone?). This particular type of wearable tech just doesn't seem to catch on. But a recent concept video makes it seem possible that things could change, and all it's taken is the stamp of the Apple brandname. Recent leaks suggested that Apple is working on some eye-wateringly expensive VR spectacles and, in response, a concept designer created this pretty impressive concept video (check out the best video editing software to craft your own), imagining how the glasses could turn out. It may all be speculation (sorry) but the ad contains enough potentially accurate features, slick design and on-brand messaging that we almost believe it could happen. And, dare we say it, be popular.",
+    "category" : "Mac & Other",
+    "urlString" : "https://www.youtube.com/watch?v=R95olc9iQE4",
+    "company" : "Apple",
+    "starImage" : false,
+    "cameraPositionXYZ" : [
+      0,
+      -0.1,
+      1.2
+    ]
+  }
+]
