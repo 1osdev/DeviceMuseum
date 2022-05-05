@@ -17,6 +17,14 @@
 		A691A94D2822318100829811 /* ARButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A691A94C2822318100829811 /* ARButtonView.swift */; };
 		A691A94F282231FB00829811 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A691A94E282231FB00829811 /* WebView.swift */; };
 		A691A9512822331900829811 /* BottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A691A9502822331900829811 /* BottomView.swift */; };
+		A691A95A282378C000829811 /* (iPhone) Apple iPhone 11 Pro.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A691A952282378BF00829811 /* (iPhone) Apple iPhone 11 Pro.usdz */; };
+		A691A95B282378C000829811 /* (iPhone) Apple iPhone 13 Pro Max Blue.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A691A953282378BF00829811 /* (iPhone) Apple iPhone 13 Pro Max Blue.usdz */; };
+		A691A95C282378C000829811 /* (iPhone) Apple iPhone 7.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A691A954282378BF00829811 /* (iPhone) Apple iPhone 7.usdz */; };
+		A691A95D282378C000829811 /* (iPhone) Apple iPhone 13 Pro Max Green.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A691A955282378BF00829811 /* (iPhone) Apple iPhone 13 Pro Max Green.usdz */; };
+		A691A95E282378C000829811 /* (iPhone) Apple iPhone 5s.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A691A956282378BF00829811 /* (iPhone) Apple iPhone 5s.usdz */; };
+		A691A95F282378C000829811 /* (iPhone) Apple iPhone XS Max.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A691A957282378BF00829811 /* (iPhone) Apple iPhone XS Max.usdz */; };
+		A691A960282378C000829811 /* (iPhone) Apple iPhone 12 Pro.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A691A958282378C000829811 /* (iPhone) Apple iPhone 12 Pro.usdz */; };
+		A691A961282378C000829811 /* (iPhone) Apple iPhone 13 Pro.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A691A959282378C000829811 /* (iPhone) Apple iPhone 13 Pro.usdz */; };
 		A6958F4C28204390004ED6EA /* devices.json in Resources */ = {isa = PBXBuildFile; fileRef = A6958F4B28204390004ED6EA /* devices.json */; };
 		A6958F4E28217711004ED6EA /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6958F4D28217711004ED6EA /* DataManager.swift */; };
 		A6958F502821773A004ED6EA /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6958F4F2821773A004ED6EA /* Device.swift */; };
@@ -72,6 +80,14 @@
 		A691A94C2822318100829811 /* ARButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARButtonView.swift; sourceTree = "<group>"; };
 		A691A94E282231FB00829811 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		A691A9502822331900829811 /* BottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomView.swift; sourceTree = "<group>"; };
+		A691A952282378BF00829811 /* (iPhone) Apple iPhone 11 Pro.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "(iPhone) Apple iPhone 11 Pro.usdz"; sourceTree = "<group>"; };
+		A691A953282378BF00829811 /* (iPhone) Apple iPhone 13 Pro Max Blue.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "(iPhone) Apple iPhone 13 Pro Max Blue.usdz"; sourceTree = "<group>"; };
+		A691A954282378BF00829811 /* (iPhone) Apple iPhone 7.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "(iPhone) Apple iPhone 7.usdz"; sourceTree = "<group>"; };
+		A691A955282378BF00829811 /* (iPhone) Apple iPhone 13 Pro Max Green.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "(iPhone) Apple iPhone 13 Pro Max Green.usdz"; sourceTree = "<group>"; };
+		A691A956282378BF00829811 /* (iPhone) Apple iPhone 5s.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "(iPhone) Apple iPhone 5s.usdz"; sourceTree = "<group>"; };
+		A691A957282378BF00829811 /* (iPhone) Apple iPhone XS Max.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "(iPhone) Apple iPhone XS Max.usdz"; sourceTree = "<group>"; };
+		A691A958282378C000829811 /* (iPhone) Apple iPhone 12 Pro.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "(iPhone) Apple iPhone 12 Pro.usdz"; sourceTree = "<group>"; };
+		A691A959282378C000829811 /* (iPhone) Apple iPhone 13 Pro.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "(iPhone) Apple iPhone 13 Pro.usdz"; sourceTree = "<group>"; };
 		A6958F4B28204390004ED6EA /* devices.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = devices.json; sourceTree = "<group>"; };
 		A6958F4D28217711004ED6EA /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		A6958F4F2821773A004ED6EA /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
@@ -131,6 +147,14 @@
 		A68D14AA28195F4800F1446A /* AR models */ = {
 			isa = PBXGroup;
 			children = (
+				A691A956282378BF00829811 /* (iPhone) Apple iPhone 5s.usdz */,
+				A691A954282378BF00829811 /* (iPhone) Apple iPhone 7.usdz */,
+				A691A952282378BF00829811 /* (iPhone) Apple iPhone 11 Pro.usdz */,
+				A691A958282378C000829811 /* (iPhone) Apple iPhone 12 Pro.usdz */,
+				A691A953282378BF00829811 /* (iPhone) Apple iPhone 13 Pro Max Blue.usdz */,
+				A691A955282378BF00829811 /* (iPhone) Apple iPhone 13 Pro Max Green.usdz */,
+				A691A959282378C000829811 /* (iPhone) Apple iPhone 13 Pro.usdz */,
+				A691A957282378BF00829811 /* (iPhone) Apple iPhone XS Max.usdz */,
 			);
 			name = "AR models";
 			sourceTree = "<group>";
@@ -386,10 +410,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A691A95E282378C000829811 /* (iPhone) Apple iPhone 5s.usdz in Resources */,
+				A691A95D282378C000829811 /* (iPhone) Apple iPhone 13 Pro Max Green.usdz in Resources */,
 				A6958F4C28204390004ED6EA /* devices.json in Resources */,
+				A691A961282378C000829811 /* (iPhone) Apple iPhone 13 Pro.usdz in Resources */,
 				A6F38E2228131F03004F6576 /* LaunchScreen.storyboard in Resources */,
+				A691A95B282378C000829811 /* (iPhone) Apple iPhone 13 Pro Max Blue.usdz in Resources */,
+				A691A95C282378C000829811 /* (iPhone) Apple iPhone 7.usdz in Resources */,
+				A691A95A282378C000829811 /* (iPhone) Apple iPhone 11 Pro.usdz in Resources */,
 				A699AF142813C645009F8504 /* MainStoryboard.storyboard in Resources */,
 				A699AF122813C492009F8504 /* SignUpStoryboard.storyboard in Resources */,
+				A691A95F282378C000829811 /* (iPhone) Apple iPhone XS Max.usdz in Resources */,
+				A691A960282378C000829811 /* (iPhone) Apple iPhone 12 Pro.usdz in Resources */,
 				A6F38E1F28131F03004F6576 /* Assets.xcassets in Resources */,
 				A6F38E1D28131F02004F6576 /* SignInStoryboard.storyboard in Resources */,
 			);
