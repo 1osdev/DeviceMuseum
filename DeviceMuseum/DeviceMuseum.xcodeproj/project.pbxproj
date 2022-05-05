@@ -32,6 +32,13 @@
 		A691A96D2823797700829811 /* (Watch) Apple Watch series 2.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A691A96A2823797700829811 /* (Watch) Apple Watch series 2.usdz */; };
 		A691A96E2823797700829811 /* (Watch) Apple Watch series 5.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A691A96B2823797700829811 /* (Watch) Apple Watch series 5.usdz */; };
 		A691A96F2823797700829811 /* (Watch) Apple Watch series 6.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A691A96C2823797700829811 /* (Watch) Apple Watch series 6.usdz */; };
+		A691A977282379C400829811 /* (Mac & Other) Apple MacBook Pro 16 inch 2021.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A691A970282379C300829811 /* (Mac & Other) Apple MacBook Pro 16 inch 2021.usdz */; };
+		A691A978282379C400829811 /* (Mac & Other) Apple AirTag.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A691A971282379C300829811 /* (Mac & Other) Apple AirTag.usdz */; };
+		A691A979282379C400829811 /* (Mac & Other) Apple AR Glasses Concept Art.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A691A972282379C300829811 /* (Mac & Other) Apple AR Glasses Concept Art.usdz */; };
+		A691A97A282379C400829811 /* (Mac & Other) Apple II.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A691A973282379C400829811 /* (Mac & Other) Apple II.usdz */; };
+		A691A97B282379C400829811 /* (Mac & Other) Apple Pencil.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A691A974282379C400829811 /* (Mac & Other) Apple Pencil.usdz */; };
+		A691A97C282379C400829811 /* (Mac & Other) Apple Mac Studio.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A691A975282379C400829811 /* (Mac & Other) Apple Mac Studio.usdz */; };
+		A691A97D282379C400829811 /* (Mac & Other) Apple I.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A691A976282379C400829811 /* (Mac & Other) Apple I.usdz */; };
 		A6958F4C28204390004ED6EA /* devices.json in Resources */ = {isa = PBXBuildFile; fileRef = A6958F4B28204390004ED6EA /* devices.json */; };
 		A6958F4E28217711004ED6EA /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6958F4D28217711004ED6EA /* DataManager.swift */; };
 		A6958F502821773A004ED6EA /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6958F4F2821773A004ED6EA /* Device.swift */; };
@@ -102,6 +109,13 @@
 		A691A96A2823797700829811 /* (Watch) Apple Watch series 2.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "(Watch) Apple Watch series 2.usdz"; sourceTree = "<group>"; };
 		A691A96B2823797700829811 /* (Watch) Apple Watch series 5.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "(Watch) Apple Watch series 5.usdz"; sourceTree = "<group>"; };
 		A691A96C2823797700829811 /* (Watch) Apple Watch series 6.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "(Watch) Apple Watch series 6.usdz"; sourceTree = "<group>"; };
+		A691A970282379C300829811 /* (Mac & Other) Apple MacBook Pro 16 inch 2021.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "(Mac & Other) Apple MacBook Pro 16 inch 2021.usdz"; sourceTree = "<group>"; };
+		A691A971282379C300829811 /* (Mac & Other) Apple AirTag.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "(Mac & Other) Apple AirTag.usdz"; sourceTree = "<group>"; };
+		A691A972282379C300829811 /* (Mac & Other) Apple AR Glasses Concept Art.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "(Mac & Other) Apple AR Glasses Concept Art.usdz"; sourceTree = "<group>"; };
+		A691A973282379C400829811 /* (Mac & Other) Apple II.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "(Mac & Other) Apple II.usdz"; sourceTree = "<group>"; };
+		A691A974282379C400829811 /* (Mac & Other) Apple Pencil.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "(Mac & Other) Apple Pencil.usdz"; sourceTree = "<group>"; };
+		A691A975282379C400829811 /* (Mac & Other) Apple Mac Studio.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "(Mac & Other) Apple Mac Studio.usdz"; sourceTree = "<group>"; };
+		A691A976282379C400829811 /* (Mac & Other) Apple I.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "(Mac & Other) Apple I.usdz"; sourceTree = "<group>"; };
 		A6958F4B28204390004ED6EA /* devices.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = devices.json; sourceTree = "<group>"; };
 		A6958F4D28217711004ED6EA /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		A6958F4F2821773A004ED6EA /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
@@ -176,6 +190,13 @@
 				A691A96A2823797700829811 /* (Watch) Apple Watch series 2.usdz */,
 				A691A96B2823797700829811 /* (Watch) Apple Watch series 5.usdz */,
 				A691A96C2823797700829811 /* (Watch) Apple Watch series 6.usdz */,
+				A691A971282379C300829811 /* (Mac & Other) Apple AirTag.usdz */,
+				A691A972282379C300829811 /* (Mac & Other) Apple AR Glasses Concept Art.usdz */,
+				A691A976282379C400829811 /* (Mac & Other) Apple I.usdz */,
+				A691A973282379C400829811 /* (Mac & Other) Apple II.usdz */,
+				A691A975282379C400829811 /* (Mac & Other) Apple Mac Studio.usdz */,
+				A691A970282379C300829811 /* (Mac & Other) Apple MacBook Pro 16 inch 2021.usdz */,
+				A691A974282379C400829811 /* (Mac & Other) Apple Pencil.usdz */,
 			);
 			name = "AR models";
 			sourceTree = "<group>";
@@ -431,8 +452,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A691A977282379C400829811 /* (Mac & Other) Apple MacBook Pro 16 inch 2021.usdz in Resources */,
 				A691A95E282378C000829811 /* (iPhone) Apple iPhone 5s.usdz in Resources */,
+				A691A978282379C400829811 /* (Mac & Other) Apple AirTag.usdz in Resources */,
 				A691A9672823796500829811 /* (iPad) Apple iPad 2010.usdz in Resources */,
+				A691A97A282379C400829811 /* (Mac & Other) Apple II.usdz in Resources */,
 				A691A95D282378C000829811 /* (iPhone) Apple iPhone 13 Pro Max Green.usdz in Resources */,
 				A6958F4C28204390004ED6EA /* devices.json in Resources */,
 				A691A961282378C000829811 /* (iPhone) Apple iPhone 13 Pro.usdz in Resources */,
@@ -444,14 +468,18 @@
 				A691A9662823796500829811 /* (iPad) Apple iPad Pro 2020.usdz in Resources */,
 				A691A96D2823797700829811 /* (Watch) Apple Watch series 2.usdz in Resources */,
 				A691A95C282378C000829811 /* (iPhone) Apple iPhone 7.usdz in Resources */,
+				A691A97B282379C400829811 /* (Mac & Other) Apple Pencil.usdz in Resources */,
 				A691A95A282378C000829811 /* (iPhone) Apple iPhone 11 Pro.usdz in Resources */,
 				A699AF142813C645009F8504 /* MainStoryboard.storyboard in Resources */,
+				A691A97D282379C400829811 /* (Mac & Other) Apple I.usdz in Resources */,
 				A691A96E2823797700829811 /* (Watch) Apple Watch series 5.usdz in Resources */,
 				A699AF122813C492009F8504 /* SignUpStoryboard.storyboard in Resources */,
 				A691A95F282378C000829811 /* (iPhone) Apple iPhone XS Max.usdz in Resources */,
 				A691A960282378C000829811 /* (iPhone) Apple iPhone 12 Pro.usdz in Resources */,
 				A6F38E1F28131F03004F6576 /* Assets.xcassets in Resources */,
 				A6F38E1D28131F02004F6576 /* SignInStoryboard.storyboard in Resources */,
+				A691A97C282379C400829811 /* (Mac & Other) Apple Mac Studio.usdz in Resources */,
+				A691A979282379C400829811 /* (Mac & Other) Apple AR Glasses Concept Art.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
