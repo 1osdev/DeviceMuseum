@@ -16,9 +16,9 @@ class WelcomeVC: UIViewController {
     @IBAction func continueBtnTapped() {
         guard let email = email,
               let pass = pass else { return }
-        UserDefaults.standard.set(name, forKey: Constants.name)
-        UserDefaults.standard.set(email, forKey: Constants.email)
-        UserDefaults.standard.set(pass, forKey: Constants.pass)
+        UserDefaults.standard.set(name, forKey: ConstantsUser.name)
+        UserDefaults.standard.set(email, forKey: ConstantsUser.email)
+        UserDefaults.standard.set(pass, forKey: ConstantsUser.pass)
         navigationController?.popToRootViewController(animated: true)
     }
 }

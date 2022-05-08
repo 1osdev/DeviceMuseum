@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A691A93F28222EAA00829811 /* DeviceStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A691A93E28222EAA00829811 /* DeviceStack.swift */; };
-		A691A94128222F4E00829811 /* DisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A691A94028222F4E00829811 /* DisplayView.swift */; };
+		A691A94128222F4E00829811 /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A691A94028222F4E00829811 /* Screen.swift */; };
 		A691A94328222FCB00829811 /* DeviceItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A691A94228222FCB00829811 /* DeviceItem.swift */; };
 		A691A94528222FE500829811 /* DeviceDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A691A94428222FE500829811 /* DeviceDetail.swift */; };
 		A691A9472822301700829811 /* ModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A691A9462822301600829811 /* ModelView.swift */; };
@@ -85,7 +85,7 @@
 
 /* Begin PBXFileReference section */
 		A691A93E28222EAA00829811 /* DeviceStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceStack.swift; sourceTree = "<group>"; };
-		A691A94028222F4E00829811 /* DisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayView.swift; sourceTree = "<group>"; };
+		A691A94028222F4E00829811 /* Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
 		A691A94228222FCB00829811 /* DeviceItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceItem.swift; sourceTree = "<group>"; };
 		A691A94428222FE500829811 /* DeviceDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceDetail.swift; sourceTree = "<group>"; };
 		A691A9462822301600829811 /* ModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelView.swift; sourceTree = "<group>"; };
@@ -258,7 +258,7 @@
 				A6958F5128222C61004ED6EA /* WelcomeView.swift */,
 				A6958F5328222C7A004ED6EA /* ListView.swift */,
 				A691A93E28222EAA00829811 /* DeviceStack.swift */,
-				A691A94028222F4E00829811 /* DisplayView.swift */,
+				A691A94028222F4E00829811 /* Screen.swift */,
 				A691A94228222FCB00829811 /* DeviceItem.swift */,
 				A691A94428222FE500829811 /* DeviceDetail.swift */,
 				A691A9462822301600829811 /* ModelView.swift */,
@@ -505,7 +505,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A691A94B2822314400829811 /* ARQuickLookView.swift in Sources */,
-				A691A94128222F4E00829811 /* DisplayView.swift in Sources */,
+				A691A94128222F4E00829811 /* Screen.swift in Sources */,
 				A6958F502821773A004ED6EA /* Device.swift in Sources */,
 				A699AF042813C152009F8504 /* UIViewControllerExt.swift in Sources */,
 				A691A94528222FE500829811 /* DeviceDetail.swift in Sources */,

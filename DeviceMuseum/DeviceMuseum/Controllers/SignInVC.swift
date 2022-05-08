@@ -64,8 +64,8 @@ final class SignInVC: UIViewController {
     }
     
     private func checkUser(email: String, pass: String) -> Bool {
-        let emailSaved = UserDefaults.standard.string(forKey: Constants.email)
-        let passSaved = UserDefaults.standard.string(forKey: Constants.pass)
+        let emailSaved = UserDefaults.standard.string(forKey: ConstantsUser.email)
+        let passSaved = UserDefaults.standard.string(forKey: ConstantsUser.pass)
         let userFound = (email == emailSaved) && (pass == passSaved)
         return userFound
     }

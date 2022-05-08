@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Constants {
+struct ConstantsUser {
     // Keys for UserDefaults
     static let name = "name"
     static let pass = "pass"
