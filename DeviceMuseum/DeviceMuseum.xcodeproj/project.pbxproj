@@ -55,6 +55,7 @@
 		A699AF102813C36A009F8504 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A699AF0F2813C36A009F8504 /* WelcomeVC.swift */; };
 		A699AF122813C492009F8504 /* SignUpStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A699AF112813C492009F8504 /* SignUpStoryboard.storyboard */; };
 		A699AF142813C645009F8504 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A699AF132813C645009F8504 /* MainStoryboard.storyboard */; };
+		A6AA13A128292E8200C44D5A /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AA13A028292E8200C44D5A /* MapView.swift */; };
 		A6F38E1628131F02004F6576 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F38E1528131F02004F6576 /* AppDelegate.swift */; };
 		A6F38E1828131F02004F6576 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F38E1728131F02004F6576 /* SceneDelegate.swift */; };
 		A6F38E1A28131F02004F6576 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F38E1928131F02004F6576 /* SignInVC.swift */; };
@@ -131,6 +132,7 @@
 		A699AF0F2813C36A009F8504 /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
 		A699AF112813C492009F8504 /* SignUpStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUpStoryboard.storyboard; sourceTree = "<group>"; };
 		A699AF132813C645009F8504 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		A6AA13A028292E8200C44D5A /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		A6F38E1228131F02004F6576 /* DeviceMuseum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeviceMuseum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6F38E1528131F02004F6576 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6F38E1728131F02004F6576 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -267,6 +269,7 @@
 				A691A94C2822318100829811 /* ARButtonView.swift */,
 				A691A94E282231FB00829811 /* WebView.swift */,
 				A691A9502822331900829811 /* BottomView.swift */,
+				A6AA13A028292E8200C44D5A /* MapView.swift */,
 				A6962FEC28173D1C0059F29A /* HostingController.swift */,
 			);
 			path = SwiftUIControllers;
@@ -521,6 +524,7 @@
 				A699AF072813C1AD009F8504 /* VerificationService.swift in Sources */,
 				A6F38E1628131F02004F6576 /* AppDelegate.swift in Sources */,
 				A699AF0E2813C32D009F8504 /* CodeVerifVC.swift in Sources */,
+				A6AA13A128292E8200C44D5A /* MapView.swift in Sources */,
 				A691A9472822301700829811 /* ModelView.swift in Sources */,
 				A699AF0A2813C247009F8504 /* Constants.swift in Sources */,
 				A691A94D2822318100829811 /* ARButtonView.swift in Sources */,

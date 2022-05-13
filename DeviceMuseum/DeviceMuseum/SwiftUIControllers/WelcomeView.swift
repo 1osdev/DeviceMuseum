@@ -12,7 +12,6 @@ struct WelcomeView: View {
     @State var areYouGoingToListView: Bool
     
     var body: some View {
-        
        // NavigationView {
             ZStack {
                 LinearGradient(gradient:Gradient(colors:[.mint, .blue]),
@@ -30,7 +29,7 @@ struct WelcomeView: View {
                         .frame(width: 250, height: 350, alignment: .top)
 //                    NavigationLink("NavLinkView", destination: ListView()) Создание кнопки и переход на вью
                     
-                    NavigationLink(destination: ListView(), isActive: $areYouGoingToListView) { EmptyView() }
+                    NavigationLink(destination: ListView( areYouGoingToMapView: false), isActive: $areYouGoingToListView) { EmptyView() }
                     Button(action: { self.areYouGoingToListView = true }, label: {
                         ZStack {
                             RoundedRectangle(cornerRadius: 15)

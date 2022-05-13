@@ -11,7 +11,7 @@
     "cameraPositionXYZ" : [
       0,
       0,
-      1.3
+      100
     ]
   },
   {
@@ -24,9 +24,9 @@
     "company" : "Apple",
     "starImage" : false,
     "cameraPositionXYZ" : [
-      20,
-      20,
-      40
+      0,
+      0,
+      100
     ]
   },
   {

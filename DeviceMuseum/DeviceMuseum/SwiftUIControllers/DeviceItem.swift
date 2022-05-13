@@ -37,7 +37,8 @@ struct DeviceItem: View {
                 
                 VStack {
                     Text(device.company.uppercased())
-                        .font(.system(size: 12))
+                        .font(.system(size: 13))
+                        .bold()
                         .frame(width: 110, height: 15, alignment: .leading)
                         .foregroundColor(Color.blue)
                     Text(device.name)
