@@ -12,7 +12,7 @@ struct WelcomeView: View {
     @State var areYouGoingToListView: Bool
     
     var body: some View {
-       // NavigationView {
+        //NavigationView {
             ZStack {
                 LinearGradient(gradient:Gradient(colors:[.mint, .blue]),
                                startPoint: UnitPoint(x: 0.2, y: 0.2),
@@ -20,8 +20,8 @@ struct WelcomeView: View {
                              ).edgesIgnoringSafeArea(.all)
                 
                 VStack {
-                    Text("Welcome")
-                        .font(.system(size: 50, weight:.light))
+                    Text("Welcome!🎉")
+                        .font(.system(size: 47, weight:.light))
                         .frame(width: 250, height: 120, alignment: .topLeading)
                     
                     Text("The Device museum application allows you to get acquainted with the collections of various devices, see realistic 3D images, read the description, and also watch a video presentation")
@@ -41,7 +41,7 @@ struct WelcomeView: View {
                 }
                 //.navigationTitle("Navigation") Изменение кнопки назад
             }
-        //}
+      //  }
     }
 }
 

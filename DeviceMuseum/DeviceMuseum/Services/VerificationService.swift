@@ -42,7 +42,7 @@ final class VerificationService {
         }
     }
     
-    static func isPassCofirm(pass1: String, pass2: String) -> Bool {
+    static func isPassConfirm(pass1: String, pass2: String) -> Bool {
         return pass1 == pass2
     }
 }

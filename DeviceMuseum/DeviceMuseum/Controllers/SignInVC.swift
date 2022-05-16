@@ -7,15 +7,17 @@
 
 import UIKit
 import SwiftUI
+import Firebase
 
 final class SignInVC: UIViewController {
+    
+    let segueIdentifier = "contentSegue"
+    //let swiftUIController = UIHostingController(rootView: ContentView())
     
     @IBOutlet private var emailTF: UITextField!
     @IBOutlet private var passTF: UITextField!
     @IBOutlet private var userErrorLbl: UILabel!
     @IBOutlet weak var loginBtn: UIButton!
-    
-    let swiftUIController = UIHostingController(rootView: ContentView())
     
     override func viewDidLoad() {
             super.viewDidLoad()
@@ -23,59 +25,62 @@ final class SignInVC: UIViewController {
         loginBtn.layer.shadowRadius = 4.0
         loginBtn.layer.shadowOpacity = 0.4
         loginBtn.layer.shadowOffset = CGSize(width: 4.0, height: 4.0)
+        
+        userErrorLbl.alpha = 0
+        
+        // FireBase проверяет пользователя, если уже зарегистрирован, то открывается  WelcomeView
+        Auth.auth().addStateDidChangeListener({ [weak self] (auth, user) in
+            if user != nil {
+                self?.performSegue(withIdentifier: (self?.segueIdentifier)!, sender: nil)
+            }
+        })
         }
     
-//    @IBAction private func signInTapped() {
-////        let contentView = ContentView()
-////                let hostingController = UIHostingController(rootView: contentView)
-////                if let window = self.view.window {
-////                    window.rootViewController = hostingController
-////                }
-//        guard let email = emailTF.text,
-//            let pass = passTF.text,
-//            checkUser(email: email, pass: pass)
-//            else {
-//            userErrorLbl.isHidden = false
-//            return
-//        }
-////        let contentView = ContentView()
-////        let hostingController = UIHostingController(rootView: contentView)
-////        if let window = self.view.window {
-////            window.rootViewController = hostingController
-////        }
-//
-//        //performSegue(withIdentifier: "ContentView", sender: nil)
-//        //performSegue(withIdentifier: "goToMain", sender: nil)
-//    }
+    // отображение error label с интервалом
+    func displayWarningLabel(withText text: String) {
+        userErrorLbl.text = text
+        UIView.animate(withDuration: 3, delay: 0, usingSpringWithDamping: 1, initialSpringVelocity: 1, options: .curveEaseInOut, animations: { [weak self] in
+            self?.userErrorLbl.alpha = 1
+        }) { [weak self] complete in
+            self?.userErrorLbl.alpha = 0
+        }
+    }
     
-    @IBAction func goToContentView() { // _ sender: Any
+    // переход на экран ввода данных для верификации
+    @IBAction func registerBtn(_ sender: UIButton) {
+    }
+    
+    // проверка пользователя и переход на swiftUI View
+    @IBAction func goToContentView() {
         guard let email = emailTF.text,
-            let pass = passTF.text,
-            checkUser(email: email, pass: pass)
-            else {
-            userErrorLbl.isHidden = false
+             let pass = passTF.text, email != "", pass != ""
+        else {
+            displayWarningLabel(withText: "Info is incorrect")
             return
         }
-        //navigationController?.pushViewController(swiftUIController, animated: true)
+        
+        Auth.auth().signIn(withEmail: email, password: pass, completion: { [weak self] (user, error) in
+            if error != nil {
+                self?.displayWarningLabel(withText: "Error occured")
+                return
+            }
+            if user != nil {
+                self?.performSegue(withIdentifier: "contentSegue", sender: nil)
+                return
+            }
+            self?.displayWarningLabel(withText: "No such user")
+        })
         }
     
-    @IBSegueAction func segueToContentView(_ coder: NSCoder) -> UIViewController? {
+    @IBSegueAction func segueContentView(_ coder: NSCoder) -> UIViewController? {
         return UIHostingController(coder: coder, rootView: ContentView())
     }
     
-    private func checkUser(email: String, pass: String) -> Bool {
-        let emailSaved = UserDefaults.standard.string(forKey: ConstantsUser.email)
-        let passSaved = UserDefaults.standard.string(forKey: ConstantsUser.pass)
-        let userFound = (email == emailSaved) && (pass == passSaved)
-        return userFound
-    }
+    // При использовании FireBase функция не используется
+//    private func checkUser(email: String, pass: String) -> Bool {
+//        let emailSaved = UserDefaults.standard.string(forKey: ConstantsUser.email)
+//        let passSaved = UserDefaults.standard.string(forKey: ConstantsUser.pass)
+//        let userFound = (email == emailSaved) && (pass == passSaved)
+//        return userFound
+//    }
 }
-
-//override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//            //var swiftUIView: AnyView {
-////                segue.identifier { () -> _ in "ContentView"; return AnyView(ContentView())
-//                guard segue.identifier == "ContentView" else { return } //AnyView(ContentView())
-//                //return AnyView(ContentView())
-//        guard let hostingController = segue.destination as? HostingController else { return }
-//            }
-//////

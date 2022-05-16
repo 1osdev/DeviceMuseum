@@ -61,7 +61,7 @@ final class CreateAccountVC: UIViewController {
 
     @IBAction private func passTFChanged(_ sender: UITextField) {
 
-        // check pass by strength
+        // check password by strength
         guard let pass1 = sender.text else { return }
         passwordStrength = VerificationService.isValidPassword(pass: pass1)
         passErrorLbl.isHidden = !(passwordStrength == .veryWeak)
@@ -72,8 +72,7 @@ final class CreateAccountVC: UIViewController {
                 view.alpha = 0.1
             }
         }
-
-        // check confPass
+        // check confirm password
         guard let pass2 = confPassTF.text else { return }
         updatePassErrorLbl(pass1: pass1, pass2: pass2)
 
@@ -93,7 +92,7 @@ final class CreateAccountVC: UIViewController {
     }
 
     private func updatePassErrorLbl(pass1: String, pass2: String) {
-        isConfPass = VerificationService.isPassCofirm(pass1: pass1, pass2: pass2)
+        isConfPass = VerificationService.isPassConfirm(pass1: pass1, pass2: pass2)
         confPassErrorLbl.isHidden = isConfPass
     }
 

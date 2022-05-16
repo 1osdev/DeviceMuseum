@@ -25,7 +25,7 @@ final class CodeVerifVC: UIViewController {
     @IBAction func codeTFChanged(_ sender: UITextField) {
         guard let ourCode = sender.text else { return }
         if ourCode.count == 5 {
-            if ourCode.count == 5, VerificationService.isPassCofirm(pass1: code, pass2: ourCode) {
+            if ourCode.count == 5, VerificationService.isPassConfirm(pass1: code, pass2: ourCode) {
                 performSegue(withIdentifier: "ShowWelcomeScreen", sender: nil)
             } else {
                 //TODO: - start timer
