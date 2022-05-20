@@ -82,10 +82,8 @@ struct DeviceDetail: View {
     }
 }
 
-#if DEBUG
 struct DeviceDetail_Previews: PreviewProvider {
     static var previews: some View {
         DeviceDetail(device: deviceData[1])
     }
 }
-#endif

@@ -54,10 +54,8 @@ struct DeviceItem: View {
     }
 }
 
-#if DEBUG
 struct DeviceItem_Previews: PreviewProvider {
     static var previews: some View {
         DeviceItem(device: deviceData[5])
     }
 }
-#endif

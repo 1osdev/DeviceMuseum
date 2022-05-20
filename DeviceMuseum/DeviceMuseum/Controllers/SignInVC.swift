@@ -34,7 +34,14 @@ final class SignInVC: UIViewController {
                 self?.performSegue(withIdentifier: (self?.segueIdentifier)!, sender: nil)
             }
         })
-        }
+    }
+    
+    // при выходе из профила поля email и password становяться пустыми
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        emailTF.text = ""
+        passTF.text = ""
+    }
     
     // отображение error label с интервалом
     func displayWarningLabel(withText text: String) {

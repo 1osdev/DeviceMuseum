@@ -123,16 +123,6 @@
             </objects>
             <point key="canvasLocation" x="1274" y="-227"/>
         </scene>
-        <!--MainStoryboard-->
-        <scene sceneID="wgq-PT-4SS">
-            <objects>
-                <viewControllerPlaceholder storyboardName="MainStoryboard" id="4gj-Nq-ZSL" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="tnd-vV-Ckb"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="zRH-tv-VBx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1263" y="-198"/>
-        </scene>
         <!--Hosting Controller-->
         <scene sceneID="6ql-qE-EzW">
             <objects>

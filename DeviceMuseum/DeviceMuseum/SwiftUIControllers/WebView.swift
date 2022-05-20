@@ -199,7 +199,6 @@ extension WebViewWrapper.Coordinator: WKNavigationDelegate {
         } else {
             action?(.didRecieveAuthChallange(challenge, completionHandler))
         }
-        
     }
 }
 
