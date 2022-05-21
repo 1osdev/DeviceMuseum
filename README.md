@@ -24,12 +24,15 @@ When you restart the app, the main menu is immediately displayed.
 
 ## Main View: List
 
-The main menu consists of 4 categories of devices: Iphone, IPad, Watch, Other.
-Clicking on an element opens a detailed view of the device with a rotated 3D image
-and a detailed description. By clicking on the button, you can go to the YouTube 
+* The main menu consists of 4 categories of devices: Iphone, IPad, Watch, Other.
+* Clicking on an element opens a detailed view of the device with a rotated 3D image
+and a detailed description. 
+* By clicking on the button, you can go to the YouTube 
 page to watch the video presentation of the device.
 
-![Main View Flow](readme_assets/Menu/menu_full.png)
+![Main View](readme_assets/Menu/menu_full.png)
+
+![Main View](readme_assets/Menu/replay1.gif)
 
 ## NavigationStack
 
@@ -52,7 +55,11 @@ Using AR Quick Look is as simple as providing it with the path to your USDZ
 or Reality content and letting it do its magic. And there are lots of nifty
 things you can do with it, too.
 
-![ARKit & QuickLook](readme_assets/ar_model.png)![ARKit & QuickLook](readme_assets/replay.gif)
+![ARKit & QuickLook](readme_assets/ar_model.png)
+
+* Rotate the 3D model 360 degrees, zoom in and out, explore the device from all angles.
+
+![ARKit & QuickLook](readme_assets/replay.gif)
 
 ## Backend
 
