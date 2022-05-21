@@ -32,7 +32,7 @@ page to watch the video presentation of the device.
 
 ![Main View](readme_assets/Menu/menu_full.png)
 
-![Main View](readme_assets/Menu/replay1.gif)
+![Main View](readme_assets/replay1.gif)
 
 ## NavigationStack
 
