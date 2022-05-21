@@ -31,6 +31,11 @@ page to watch the video presentation of the device.
 
 ![Main View Flow](readme_assets/Menu/menu_full.png)
 
+## NavigationStack
+
+An alternative SwiftUI NavigationView implementing classic stack-based navigation giving also some more control on animations and programmatic navigation.
+
+Download `NavigationStack` [here] (https://github.com/matteopuc/swiftui-navigation-stack)
 
 ## Map View
 
@@ -38,9 +43,20 @@ Using the MapKit framework, you can see the location of the museum on the map.
 
 ![Map View](readme_assets/Menu/menu8.png)
 
+### ARKit & QuickLook frameworks  
+
+USDz is is a 3D file format that shows up as AR content created by Pixar.
+Using AR Quick Look is as simple as providing it with the path to your USDZ
+or Reality content and letting it do its magic. And there are lots of nifty
+things you can do with it, too.
+
+![ARKit & QuickLook frameworks](readme_assets/ar_model.png)
+
 ## Backend
 
 ### Authentication
+
+Download `Firebase` Auth [here] (https://github.com/firebase/firebase-ios-sdk)
 
 Use Email/Password FireBase authentication to you can register and log users in.
 
@@ -55,12 +71,3 @@ Analyze app usage statistics and data.
 An example of a part of a JSON file with data to display in the application menu.
 
 ![JSON Info](readme_assets/json.png)
-
-### ARKit & QuickLook frameworks  
-
-USDz is is a 3D file format that shows up as AR content created by Pixar.
-Using AR Quick Look is as simple as providing it with the path to your USDZ
-or Reality content and letting it do its magic. And there are lots of nifty
-things you can do with it, too.
-
-![ARKit & QuickLook frameworks](readme_assets/ar_model.png)
