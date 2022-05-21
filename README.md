@@ -19,7 +19,7 @@ User registration used Sign-in providers (Email/Password) occurs through FireBas
 Users must register and log in before they can proceed to the main part of the app. 
 When you restart the app, the main menu is immediately displayed.
 
-![Login Flow](readme_assets/Login/login_flow.png)
+![Login Flow](readme_assets/Login/login_flow2.png)
 ![Login Flow](readme_assets/Login/login_flow1.png)
 
 ## Main View: List
@@ -33,15 +33,15 @@ page to watch the video presentation of the device.
 
 ## NavigationStack
 
-An alternative SwiftUI NavigationView implementing classic stack-based navigation giving also some more control on animations and programmatic navigation.
+* An alternative SwiftUI NavigationView implementing classic stack-based navigation giving also some more control on animations and programmatic navigation.
 
 Download `NavigationStack`
-Link [here](https://github.com/matteopuc/swiftui-navigation-stack)
+link [here](https://github.com/matteopuc/swiftui-navigation-stack)
 
 
 ## Map View
 
-Using the MapKit framework, you can see the location of the museum on the map.
+* Using the MapKit framework, you can see the location of the museum on the map.
 
 ![Map View](readme_assets/Menu/menu8.png)
 
@@ -59,18 +59,18 @@ things you can do with it, too.
 ### Authentication
 
 Download `Firebase`
-Link [here](https://github.com/firebase/firebase-ios-sdk)
+link [here](https://github.com/firebase/firebase-ios-sdk)
 
-Use Email/Password FireBase authentication to you can register and log users in.
+* Use Email/Password FireBase authentication to you can register and log users in.
 
 ![Authentication](readme_assets/firebase_user.png)
 
-Analyze app usage statistics and data.
+* Analyze app usage statistics and data.
 
 ![Authentication](readme_assets/firebase_analytics.png)
 
 ### JSON Info
 
-An example of a part of a JSON file with data to display in the application menu.
+* An example of a part of a JSON file with data to display in the application menu.
 
 ![JSON Info](readme_assets/json.png)
