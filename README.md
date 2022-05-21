@@ -45,14 +45,14 @@ link [here](https://github.com/matteopuc/swiftui-navigation-stack)
 
 ![Map View](readme_assets/Menu/menu8.png)
 
-### ARKit & QuickLook frameworks  
+### ARKit & QuickLook 
 
 USDz is is a 3D file format that shows up as AR content created by Pixar.
 Using AR Quick Look is as simple as providing it with the path to your USDZ
 or Reality content and letting it do its magic. And there are lots of nifty
 things you can do with it, too.
 
-![ARKit & QuickLook frameworks](readme_assets/ar_model.png)
+![ARKit & QuickLook](readme_assets/ar_model.png)![ARKit & QuickLook](readme_assets/replay.gif)
 
 ## Backend
 
