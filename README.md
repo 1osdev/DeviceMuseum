@@ -35,7 +35,9 @@ page to watch the video presentation of the device.
 
 An alternative SwiftUI NavigationView implementing classic stack-based navigation giving also some more control on animations and programmatic navigation.
 
-Download `NavigationStack` [here] (https://github.com/matteopuc/swiftui-navigation-stack)
+Download `NavigationStack`
+Link [here](https://github.com/matteopuc/swiftui-navigation-stack)
+
 
 ## Map View
 
@@ -56,7 +58,8 @@ things you can do with it, too.
 
 ### Authentication
 
-Download `Firebase` Auth [here] (https://github.com/firebase/firebase-ios-sdk)
+Download `Firebase`
+Link [here](https://github.com/firebase/firebase-ios-sdk)
 
 Use Email/Password FireBase authentication to you can register and log users in.
 
