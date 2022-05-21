@@ -19,7 +19,7 @@ User registration used Sign-in providers (Email/Password) occurs through FireBas
 Users must register and log in before they can proceed to the main part of the app. 
 When you restart the app, the main menu is immediately displayed.
 
-![Login Flow](readme_assets/Login/login_flow2.png)
+![Login Flow](readme_assets/Login/login_flow.png)
 ![Login Flow](readme_assets/Login/login_flow1.png)
 
 ## Main View: List
