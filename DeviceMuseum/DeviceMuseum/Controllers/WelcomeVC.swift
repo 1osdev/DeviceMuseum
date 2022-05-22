@@ -9,11 +9,11 @@ import UIKit
 import Firebase
 
 class WelcomeVC: UIViewController {
-    
+
     var email: String?
     var name: String?
     var pass: String?
-    
+
     @IBAction func continueBtnTapped() {
         guard let email = email,
             let pass = pass, email != "", pass != ""
@@ -27,7 +27,7 @@ class WelcomeVC: UIViewController {
             }
         })
 
-// При использовании FireBase функция не используется
+// When using FireBase, the function is not used
 //        guard let email = email,
 //              let pass = pass else { return }
 //        UserDefaults.standard.set(name, forKey: ConstantsUser.name)

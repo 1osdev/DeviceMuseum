@@ -8,9 +8,9 @@
 import SwiftUI
 
 struct DeviceItem: View {
-    
+
     var device: Device
-    
+
     var body: some View {
         ZStack {
             VStack(alignment: .leading, spacing: 16) {
@@ -23,9 +23,9 @@ struct DeviceItem: View {
                     .shadow(radius: 10)
             }
             ZStack {
-                
+
                 Blur(style: .light).cornerRadius(20).shadow(radius: 2)
-                
+
                 if device.starImage {
                     Image(systemName: "star.circle.fill")
                         .foregroundColor(Color.blue)
@@ -34,7 +34,7 @@ struct DeviceItem: View {
                         .background(Circle().fill(Color.white))
                         .offset(x: 75, y: -173)
                 }
-                
+
                 VStack {
                     Text(device.company.uppercased())
                         .font(.system(size: 13))
@@ -43,7 +43,7 @@ struct DeviceItem: View {
                         .foregroundColor(Color.blue)
                     Text(device.name)
                         .font(Font.system(size: 17))
-                            .foregroundColor(.black)
+                        .foregroundColor(.black)
                         .frame(width: 110, height: (device.name.count > 12 ? 44 : 30), alignment: .topLeading)
                         .padding(.top, 6)
                 }.padding(.init(top: 10, leading: 10, bottom: 10, trailing: 10))

@@ -21,7 +21,7 @@ final class CreateAccountVC: UIViewController {
 
     @IBOutlet private weak var confPassTF: UITextField!
     @IBOutlet private weak var confPassErrorLbl: UILabel!
-    
+
     @IBOutlet private weak var signUpBtn: UIButton!
 
     @IBOutlet private weak var scrollView: UIScrollView!
@@ -61,7 +61,7 @@ final class CreateAccountVC: UIViewController {
 
     @IBAction private func passTFChanged(_ sender: UITextField) {
 
-        // check password by strength
+        // Check password by strength
         guard let pass1 = sender.text else { return }
         passwordStrength = VerificationService.isValidPassword(pass: pass1)
         passErrorLbl.isHidden = !(passwordStrength == .veryWeak)
@@ -72,11 +72,11 @@ final class CreateAccountVC: UIViewController {
                 view.alpha = 0.1
             }
         }
-        // check confirm password
+        // Check confirm password
         guard let pass2 = confPassTF.text else { return }
         updatePassErrorLbl(pass1: pass1, pass2: pass2)
 
-        // updateBtn
+        // UpdateBtn
         updateBtnState()
     }
 
@@ -100,12 +100,12 @@ final class CreateAccountVC: UIViewController {
         signUpBtn.isEnabled = isValidEmail &&
             isConfPass && (passwordStrength != .veryWeak)
     }
-    
-    private func startKeyboardObserver(){
+
+    private func startKeyboardObserver() {
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow),
-                                               name: UIResponder.keyboardWillShowNotification, object: nil)
+            name: UIResponder.keyboardWillShowNotification, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide),
-                                               name: UIResponder.keyboardWillHideNotification, object: nil)
+            name: UIResponder.keyboardWillHideNotification, object: nil)
     }
 
     @objc private func keyboardWillShow(notification: Notification) {
@@ -114,7 +114,7 @@ final class CreateAccountVC: UIViewController {
         scrollView.contentInset = contentInsets
         scrollView.scrollIndicatorInsets = contentInsets
     }
-    
+
     @objc private func keyboardWillHide() {
         let contentInsets = UIEdgeInsets(top: 0.0, left: 0.0, bottom: 0.0, right: 0.0)
         scrollView.contentInset = contentInsets

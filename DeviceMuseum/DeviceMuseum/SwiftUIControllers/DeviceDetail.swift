@@ -10,14 +10,14 @@ import QuickLook
 import NavigationStack
 
 struct DeviceDetail: View {
-    
+
     @State private var bottomSheetShown = true
     @State private var deviceInfo = false
     @State private var deviceWeb = false
-    
+
     @State var device: Device
     var screenRect = UIScreen.main.bounds
-    
+
     var body: some View {
         Screen {
             ZStack {

@@ -8,7 +8,7 @@
 import SwiftUI
 import MapKit
 
-// Вариант карты без булавки
+// Map display without pin (default)
 //struct MapView: View {
 //    @State private var region = MKCoordinateRegion(
 //        center:

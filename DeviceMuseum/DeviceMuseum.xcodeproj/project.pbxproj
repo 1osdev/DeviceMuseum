@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A639B874283A4BB400C16461 /* UIOnboarding in Frameworks */ = {isa = PBXBuildFile; productRef = A639B873283A4BB400C16461 /* UIOnboarding */; };
+		A68E9530283A556C00C83C8A /* UIOnboardingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68E952F283A556C00C83C8A /* UIOnboardingHelper.swift */; };
 		A691A93F28222EAA00829811 /* DeviceStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A691A93E28222EAA00829811 /* DeviceStack.swift */; };
 		A691A94128222F4E00829811 /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A691A94028222F4E00829811 /* Screen.swift */; };
 		A691A94328222FCB00829811 /* DeviceItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A691A94228222FCB00829811 /* DeviceItem.swift */; };
@@ -60,7 +62,6 @@
 		A6958F502821773A004ED6EA /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6958F4F2821773A004ED6EA /* Device.swift */; };
 		A6958F5228222C61004ED6EA /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6958F5128222C61004ED6EA /* WelcomeView.swift */; };
 		A6958F5428222C7A004ED6EA /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6958F5328222C7A004ED6EA /* ListView.swift */; };
-		A6962FED28173D1C0059F29A /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6962FEC28173D1C0059F29A /* HostingController.swift */; };
 		A699AEFE28133673009F8504 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A699AEFD28133673009F8504 /* ContentView.swift */; };
 		A699AF02281337D5009F8504 /* NavigationStack in Frameworks */ = {isa = PBXBuildFile; productRef = A699AF01281337D5009F8504 /* NavigationStack */; };
 		A699AF042813C152009F8504 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A699AF032813C152009F8504 /* UIViewControllerExt.swift */; };
@@ -100,6 +101,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A68E952F283A556C00C83C8A /* UIOnboardingHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIOnboardingHelper.swift; sourceTree = "<group>"; };
 		A691A93E28222EAA00829811 /* DeviceStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceStack.swift; sourceTree = "<group>"; };
 		A691A94028222F4E00829811 /* Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
 		A691A94228222FCB00829811 /* DeviceItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceItem.swift; sourceTree = "<group>"; };
@@ -138,7 +140,6 @@
 		A6958F4F2821773A004ED6EA /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
 		A6958F5128222C61004ED6EA /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		A6958F5328222C7A004ED6EA /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
-		A6962FEC28173D1C0059F29A /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
 		A699AEFD28133673009F8504 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A699AF032813C152009F8504 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 		A699AF062813C1AD009F8504 /* VerificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationService.swift; sourceTree = "<group>"; };
@@ -178,6 +179,7 @@
 				A693DB6C283056EA006AF499 /* FirebaseAuth in Frameworks */,
 				A693DB7C283056EA006AF499 /* FirebaseStorage in Frameworks */,
 				A693DB70283056EA006AF499 /* FirebaseCrashlytics in Frameworks */,
+				A639B874283A4BB400C16461 /* UIOnboarding in Frameworks */,
 				A693DB7E283056EA006AF499 /* FirebaseStorageCombine-Community in Frameworks */,
 				A693DB78283056EA006AF499 /* FirebaseMessaging in Frameworks */,
 				A693DB74283056EA006AF499 /* FirebaseDatabaseSwift in Frameworks */,
@@ -204,6 +206,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A639B86D283A436500C16461 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				A68E952F283A556C00C83C8A /* UIOnboardingHelper.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
 		A68D14AA28195F4800F1446A /* AR models */ = {
 			isa = PBXGroup;
 			children = (
@@ -299,7 +309,6 @@
 				A691A94E282231FB00829811 /* WebView.swift */,
 				A691A9502822331900829811 /* BottomView.swift */,
 				A6AA13A028292E8200C44D5A /* MapView.swift */,
-				A6962FEC28173D1C0059F29A /* HostingController.swift */,
 			);
 			path = SwiftUIControllers;
 			sourceTree = "<group>";
@@ -345,6 +354,7 @@
 			children = (
 				A68D14AA28195F4800F1446A /* AR models */,
 				A68D14AB2819608400F1446A /* Model */,
+				A639B86D283A436500C16461 /* Onboarding */,
 				A699AEF828132278009F8504 /* Controllers */,
 				A699AEFF28133681009F8504 /* SwiftUIControllers */,
 				A699AEF728132253009F8504 /* Views */,
@@ -408,6 +418,7 @@
 				A693DB79283056EA006AF499 /* FirebasePerformance */,
 				A693DB7B283056EA006AF499 /* FirebaseStorage */,
 				A693DB7D283056EA006AF499 /* FirebaseStorageCombine-Community */,
+				A639B873283A4BB400C16461 /* UIOnboarding */,
 			);
 			productName = DeviceMuseum;
 			productReference = A6F38E1228131F02004F6576 /* DeviceMuseum.app */;
@@ -484,6 +495,7 @@
 			packageReferences = (
 				A699AF00281337D5009F8504 /* XCRemoteSwiftPackageReference "swiftui-navigation-stack" */,
 				A693DB60283056EA006AF499 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				A639B872283A4BB400C16461 /* XCRemoteSwiftPackageReference "UIOnboarding" */,
 			);
 			productRefGroup = A6F38E1328131F02004F6576 /* Products */;
 			projectDirPath = "";
@@ -569,13 +581,13 @@
 				A699AF0C2813C2C8009F8504 /* CreateAccountVC.swift in Sources */,
 				A699AF072813C1AD009F8504 /* VerificationService.swift in Sources */,
 				A6F38E1628131F02004F6576 /* AppDelegate.swift in Sources */,
+				A68E9530283A556C00C83C8A /* UIOnboardingHelper.swift in Sources */,
 				A699AF0E2813C32D009F8504 /* CodeVerifVC.swift in Sources */,
 				A6AA13A128292E8200C44D5A /* MapView.swift in Sources */,
 				A691A9472822301700829811 /* ModelView.swift in Sources */,
 				A699AF0A2813C247009F8504 /* Constants.swift in Sources */,
 				A691A94D2822318100829811 /* ARButtonView.swift in Sources */,
 				A699AEFE28133673009F8504 /* ContentView.swift in Sources */,
-				A6962FED28173D1C0059F29A /* HostingController.swift in Sources */,
 				A6F38E1828131F02004F6576 /* SceneDelegate.swift in Sources */,
 				A6958F5228222C61004ED6EA /* WelcomeView.swift in Sources */,
 				A691A9512822331900829811 /* BottomView.swift in Sources */,
@@ -924,6 +936,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		A639B872283A4BB400C16461 /* XCRemoteSwiftPackageReference "UIOnboarding" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lascic/UIOnboarding.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.3;
+			};
+		};
 		A693DB60283056EA006AF499 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
@@ -943,6 +963,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		A639B873283A4BB400C16461 /* UIOnboarding */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A639B872283A4BB400C16461 /* XCRemoteSwiftPackageReference "UIOnboarding" */;
+			productName = UIOnboarding;
+		};
 		A693DB61283056EA006AF499 /* FirebaseAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = A693DB60283056EA006AF499 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;

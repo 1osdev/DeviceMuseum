@@ -8,7 +8,7 @@
 import Foundation
 
 struct ConstantsUser {
-    // Keys for UserDefaults
+    // Keys can also be used for UserDefaults as an alternative Firebase
     static let name = "name"
     static let pass = "pass"
     static let email = "email"

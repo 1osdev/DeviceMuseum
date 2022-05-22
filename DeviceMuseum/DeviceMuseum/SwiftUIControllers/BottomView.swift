@@ -58,9 +58,9 @@ struct BottomView<Content: View>: View {
                 .frame(height: geometry.size.height, alignment: .bottom)
                 .offset(y: max(self.offset + self.translation, 0))
                 .animation(Animation.easeInOut(duration: 1.0), value: offset)
-                //.animation(Animation.interactiveSpring())
-                //.animation(.interactiveSpring())
-                .gesture(
+            //.animation(Animation.interactiveSpring())
+            //.animation(.interactiveSpring())
+            .gesture(
                 DragGesture().updating(self.$translation) { value, state, _ in
                     state = value.translation.height
                 }.onEnded { value in
