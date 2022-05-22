@@ -25,7 +25,7 @@ When you restart the app, the main menu is immediately displayed.
 ## Main View: List
 
 * The main menu consists of 4 categories of devices: Iphone, IPad, Watch, Other.
-* Clicking on an element opens a detailed view of the device with a rotated 3D image
+* Clicking on an item opens a detailed view of the device with a rotated 3D image
 and a detailed description. 
 * By clicking on the button, you can go to the YouTube 
 page to watch the video presentation of the device.
